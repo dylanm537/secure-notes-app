@@ -25,5 +25,31 @@ Users can securely log in, view, and add personal notes. This project demonstrat
 
 ---
 
-## Folder Structure
+Prerequisites
+
+- Node.js & npm (for frontend)
+- Python 3.8+ (for backend)
+- Expo CLI (for frontend development)
+
+backend set up
+
+cd secure-notes-backend
+python -m venv venv
+venv\Scripts\activate      
+pip install fastapi uvicorn
+uvicorn main:app
+
+frontend set up
+
+cd frontend
+npm install
+npx expo start
+
+
+Usage
+
+Username: alice
+Password: password123
+
+then you can add new notes
 
