@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet, Alert } from "react-native";
-
 const API_URL = "http://192.168.40.181:8000";
-
 
 export default function App() {
   const [username, setUsername] = useState("");
@@ -121,15 +119,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff", // 👈 white background
+    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    padding: 20,
+    padding: 18,
   },
   title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "bold",
-    marginBottom: 20,
+    marginBottom: 18,
   },
   input: {
     width: "100%",
@@ -145,7 +143,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   noteItem: {
-    fontSize: 16,
-    marginBottom: 10,
+    fontSize: 15,
+    marginBottom: 9,
   },
 });
